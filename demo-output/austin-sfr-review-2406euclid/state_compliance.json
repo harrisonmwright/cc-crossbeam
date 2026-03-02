@@ -1,0 +1,36 @@
+{
+  "verified_by": "Phase 3B — Texas state law verification",
+  "reference_files_loaded": ["texas-state-law.md (SB 15, SB 840, HB 24 — 89th Legislature 2025)"],
+  "lot_facts": {
+    "lot_area_sqft": 7330,
+    "zoning": "SF-3-NP",
+    "small_lot_threshold_sqft": 4000,
+    "is_small_lot": false,
+    "sb15_effective": "2025-09-01",
+    "submission_date": "2026-03-01",
+    "sb15_applies": true,
+    "sb15_small_lot_provisions_apply": false,
+    "sb840_applies": false,
+    "sb840_note": "SB 840 applies to zones permitting commercial/office/retail/warehouse uses. SF-3 is a residential base zone. Not applicable.",
+    "hb24_applies": false,
+    "hb24_note": "HB 24 governs zoning-change legislative procedures — not a plan review development standard."
+  },
+  "preemption_summary": "No Texas state law preemption is triggered on any finding. The lot is 7,330 sq ft — nearly double the 4,000 sq ft threshold for SB 15 small-lot provisions. All setback, parking, open-space, and FAR findings that could potentially be affected by SB 15 fall under small-lot-only provisions that do not reach this lot. SB 840 does not apply to SF-3 residential zoning. HB 24 is not a plan-check standard.",
+  "local_provisions_prohibited_by_state_law": "None identified.",
+  "findings": [
+    { "id": "A-01", "preemption": false, "retain": true, "notes": "Lot area documentation accuracy — not addressed by any state statute." },
+    { "id": "A-02", "preemption": false, "retain": true, "notes": "Use type designation — not addressed by state statute." },
+    { "id": "A-03", "preemption": false, "retain": true, "notes": "Ordinance citation on cover sheet — not addressed by state statute." },
+    { "id": "A-06", "preemption": false, "retain": true, "notes": "SB 15 §211.055(a)(4) caps open space requirement at 30% for small lots only (≤4,000 sf). This lot is 7,330 sf — small-lot provision does not apply. HOME Phase I 40% front yard impervious limit governs." },
+    { "id": "A-07", "preemption": false, "retain": true, "notes": "SB 15 §211.055(a)(1) caps front setback at 15 ft for small lots only (≤4,000 sf). Not applicable here. Phase I 15 ft front setback governs and equals the state cap regardless." },
+    { "id": "A-08", "preemption": false, "retain": true, "notes": "SB 15 §211.055(a)(1) caps rear setback at 10 ft for small lots only. Not applicable. Phase I 5 ft rear setback (with alley) is more permissive than the state floor — no conflict." },
+    { "id": "A-09", "preemption": false, "retain": true, "notes": "SB 15 §211.055(a)(1) caps side setback at 5 ft for small lots only. Not applicable. Local 5 ft side setback equals state floor — no conflict even if applicable." },
+    { "id": "A-10", "preemption": false, "retain": true, "notes": "Porch setbacks are not wall articulation requirements. SB 15 §211.055(a)(5) prohibits wall articulation requirements on small lots only. Not applicable here." },
+    { "id": "A-11", "preemption": false, "retain": true, "notes": "SB 15 §211.055(a)(2) prohibits covered parking requirements for small lots. SB 15 §211.055(a)(3) caps parking at 1 per unit for small lots. Neither applies to this 7,330 sf lot. Phase I maximum 4 spaces in front yard is a cap, not a minimum — not preempted." },
+    { "id": "B-01", "preemption": false, "retain": true, "notes": "SB 15 §211.055(a)(6) prohibits building bulk restrictions for small lots only. SB 840 FAR preemption applies to commercial zones only. Neither applies here. Phase I §25-2-773(E) Subchapter F FAR limits govern." },
+    { "id": "B-02", "preemption": false, "retain": true, "notes": "Same as B-01." },
+    { "id": "B-03", "preemption": false, "retain": true, "notes": "Same as B-01." },
+    { "id": "B-07", "preemption": false, "retain": true, "notes": "Street-facing entrance requirement is not a wall articulation standard. SB 15 §211.055(a)(7) prohibits wall articulation requirements for small lots only. Not applicable." },
+    { "id": "C-04", "preemption": false, "retain": true, "notes": "IBC structural standards — not addressed by SB 15, SB 840, or HB 24." }
+  ]
+}

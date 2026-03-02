@@ -1,0 +1,31 @@
+{
+  "verified_by": "Phase 3A — HOME Phase I/II code verification",
+  "reference_files_loaded": [
+    "home-phase-1.md (Ord. 20231207-001)",
+    "home-phase-2.md (Ord. 20240516-006)"
+  ],
+  "governing_phase": "PHASE_I",
+  "phase_ii_applicable": false,
+  "phase_ii_note": "Lot is 7,330 sq ft — exceeds 5,750 sq ft threshold. Phase II (§25-2-779) does not apply. No findings incorrectly cite Phase II.",
+  "findings_reviewed": 14,
+  "findings_verified": 14,
+  "findings_corrected": 0,
+  "findings_dropped": 0,
+  "verdicts": [
+    { "id": "A-01", "verified": true, "drop": false, "notes": "§25-1-22(A) is a valid LDC cite for lot measurement consistency. Governing phase LDC is correct." },
+    { "id": "A-02", "verified": true, "drop": false, "notes": "Ord. 20231207-001 §25-2-773 and §25-2-901 repeal confirmed verbatim in Phase I reference." },
+    { "id": "A-03", "verified": true, "drop": false, "notes": "HOME Phase I Ord. 20231207-001 ordinance number and §25-2-773 confirmed. PHASE_I designation correct." },
+    { "id": "A-06", "verified": true, "drop": false, "notes": "§25-2-773(B) 40% front yard impervious cover limit confirmed verbatim in Phase I coverage table." },
+    { "id": "A-07", "verified": true, "drop": false, "notes": "§25-2-773(B) 15 ft minimum front yard setback confirmed in Phase I setback table." },
+    { "id": "A-08", "verified": true, "drop": false, "notes": "§25-2-773(B) rear setback 5 ft alley exception confirmed verbatim in Phase I reference." },
+    { "id": "A-09", "verified": true, "drop": false, "notes": "§25-2-773(B) corner lot street-side setbacks confirmed: Level 1 = greater of 5 ft from PL or 10 ft from curb; Level 2-4 = 10 ft from PL." },
+    { "id": "A-10", "verified": true, "drop": false, "notes": "§25-2-773(C) porch ≥15 ft from front lot line and overhang ≥13 ft confirmed verbatim in Phase I design standards." },
+    { "id": "A-11", "verified": true, "drop": false, "notes": "§25-2-773(B) maximum 4 parking spaces in front/street yard confirmed in Phase I parking section." },
+    { "id": "B-01", "verified": true, "drop": false, "notes": "§25-2-773(E) per-unit max greater of 0.4 FAR or 2,300 sq ft confirmed in Phase I FAR table. Two-Unit Residential category correct." },
+    { "id": "B-02", "verified": true, "drop": false, "notes": "§25-2-773(E) per-unit GFA maximum confirmed. Subchapter F §3.3 methodology reference is a valid supplementary LDC cite." },
+    { "id": "B-03", "verified": true, "drop": false, "notes": "§25-2-773(E) site max greater of 0.55 FAR or 3,200 sq ft for Two-Unit Residential confirmed verbatim in Phase I FAR table." },
+    { "id": "B-07", "verified": true, "drop": false, "notes": "§25-2-773(C) minimum 1 street-facing entrance requirement confirmed in Phase I minimum entrances section." },
+    { "id": "C-04", "verified": true, "drop": false, "notes": "IBC Chapter 16/18/23 citations are correct for structural review. Not a HOME standard — reviewer blank appropriate." }
+  ],
+  "summary": "All 14 FAIL/UNCLEAR findings have accurate code citations confirmed against HOME Phase I reference. No findings dropped. No Phase II citations incorrectly applied. All five FAIL items and all UNCLEAR items carry valid, verifiable code bases."
+}

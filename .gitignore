@@ -59,7 +59,6 @@ test-assets/HCD-ADU-Handbook-2025.pdf
 *.tar.gz
 
 # Demo artifacts (local-only)
-demo-output/
 demo-workspace/
 scripts/
 

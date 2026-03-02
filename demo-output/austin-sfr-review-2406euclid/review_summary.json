@@ -1,0 +1,49 @@
+{
+  "project": "2406 Euclid Avenue, Austin TX 78722",
+  "review_date": "2026-03-01",
+  "governing_phase": "PHASE_I",
+  "use_type": "TWO_UNIT_RESIDENTIAL",
+  "governing_ordinance": "HOME Phase I, Ord. 20231207-001",
+  "state_preemption_triggered": false,
+  "totals": {
+    "sheets_reviewed": 32,
+    "total_findings": 23,
+    "pass": 11,
+    "fail": 5,
+    "unclear": 8,
+    "corrections_in_letter": 13,
+    "hard_corrections": 5,
+    "verify_items": 7,
+    "reviewer_blanks": 1,
+    "dropped_no_code_basis": 1
+  },
+  "by_code_basis": {
+    "HOME_PHASE_I": 9,
+    "LDC_SUBCHAPTER_F": 2,
+    "LDC_BASE_DISTRICT": 2,
+    "IRC_2021": 2,
+    "IBC_2021": 1,
+    "TX_STATE": 1
+  },
+  "confidence_breakdown": {
+    "HIGH": 7,
+    "MEDIUM": 11,
+    "LOW": 5
+  },
+  "key_issues": [
+    "Lot area inconsistency (7,330 vs 7,730 sq ft) — affects all FAR calculations",
+    "ADU GFA not submitted — cannot confirm per-unit or site FAR compliance",
+    "ADU lacks street-facing entrance toward Euclid Ave",
+    "Use type must be formally designated as Two-Unit Residential (§25-2-901 repealed)"
+  ],
+  "output_files": [
+    "sheet-manifest.json",
+    "lot_classification.json",
+    "sheet_findings.json",
+    "home_compliance.json",
+    "state_compliance.json",
+    "draft_corrections.json",
+    "draft_corrections.md",
+    "review_summary.json"
+  ]
+}

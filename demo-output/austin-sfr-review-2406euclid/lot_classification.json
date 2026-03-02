@@ -1,0 +1,27 @@
+{
+  "lot_area_sqft_permit_app": 7330,
+  "lot_area_sqft_site_data_table": 7730,
+  "lot_area_sqft_used_for_review": 7330,
+  "lot_area_discrepancy": true,
+  "lot_area_discrepancy_note": "Permit application (page 4) states 7,330 sq ft; site development data table (pages 5-6) states 7,730 sq ft. Difference: 400 sq ft. Both values exceed the 5,750 sq ft Phase I threshold — governing phase is PHASE_I regardless. Discrepancy must be resolved by licensed surveyor and corrected in all submittal documents.",
+  "lot_width_at_setback": "~55 ft (approximate, from site plan visual read — exact dimension not confirmed)",
+  "lot_width_at_25ft": "~55 ft (approximate — lot appears rectangular, width consistent at 25 ft behind setback line)",
+  "flag_lot": false,
+  "zoning": "SF-3-NP",
+  "neighborhood_plan": "Dawson",
+  "unit_count_proposed": 2,
+  "units": [
+    { "unit": 1, "description": "2-story house w/ habitable attic, fronting Euclid Ave (north)" },
+    { "unit": 2, "description": "2-story ADU w/ attached single-car garage, at rear of lot (south, adjacent to alley)" }
+  ],
+  "use_type": "TWO_UNIT_RESIDENTIAL",
+  "use_type_note": "Two dwelling units on a single SF-3 lot. Under HOME Phase I (Ord. 20231207-001), this is Two-Unit Residential use per §25-2-773. The former Accessory Apartment use (§25-2-901) was repealed by Ord. 20231207-001. Submittal documents must reflect Two-Unit Residential use type.",
+  "governing_phase": "PHASE_I",
+  "governing_section": "Austin LDC §25-2-773, HOME Phase I, Ord. 20231207-001 (eff. Dec 18 2023; applies to apps filed on/after Feb 5 2024)",
+  "phase_ii_applicable": false,
+  "phase_ii_note": "Phase II (§25-2-779, Ord. 20240516-006) governs lots between 1,800–5,749 sq ft. This lot exceeds 5,750 sq ft — Phase II does not apply.",
+  "subchapter_f_compatibility_area": true,
+  "subchapter_f_note": "Applicant submitted Subchapter F GFA forms (pages 7-8), confirming the property is within the Subchapter F compatibility area. FAR limits of §25-2-773(E) therefore apply.",
+  "measurement_confidence": "MEDIUM",
+  "reviewed_as_submitted": "2026-03-01 (tested as current submission per user instruction)"
+}

@@ -1,0 +1,173 @@
+{
+  "project": "2406 Euclid Avenue, Austin TX 78722",
+  "review_date": "2026-03-01",
+  "governing_phase": "PHASE_I",
+  "use_type": "TWO_UNIT_RESIDENTIAL",
+  "filter_applied": true,
+  "state_preemption_triggered": false,
+  "corrections": [
+    {
+      "item": 1,
+      "finding_id": "A-01",
+      "category": "Administrative",
+      "action": "INCLUDE",
+      "reviewer_action": "CORRECT",
+      "confidence": "HIGH",
+      "verify_flag": false,
+      "title": "Lot area inconsistency across submittal documents",
+      "code_ref": "Austin LDC §25-1-21 (lot area definition) — lot area must be determined by licensed survey and must be consistent across all permit documents.",
+      "correction": "The permit application (page 4) states a lot area of 7,330 sq ft. The site development data table states 7,730 sq ft. These values are inconsistent by 400 sq ft and appear on the same submittal. Revise all submittal documents to reflect the same lot area, reconciled to the recorded plat or a current licensed survey. Note: the governing HOME phase (Phase I, §25-2-773) is PHASE_I regardless of which value is correct, as both exceed the 5,750 sq ft threshold. However, the correct lot area is critical for accurate FAR calculations (see Items 3 and 4)."
+    },
+    {
+      "item": 2,
+      "finding_id": "A-02",
+      "category": "Administrative",
+      "action": "INCLUDE",
+      "reviewer_action": "CORRECT",
+      "confidence": "HIGH",
+      "verify_flag": false,
+      "title": "Use type must be designated as Two-Unit Residential",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773 — Duplex, Two-Unit, and Three-Unit Residential uses govern two-unit development on SF-zoned lots. Austin LDC §25-2-901 (Accessory Apartments) repealed by Ord. 20231207-001.",
+      "correction": "The submittal describes the project as 'House w/ Habitable Attic' with a separate ADU, using terminology consistent with the former Accessory Apartment use under §25-2-901. That use was repealed by HOME Phase I. Two dwelling units on a single SF-3 lot (one main house + one ADU) now constitute Two-Unit Residential use, governed by §25-2-773 and its development standards. Revise all title blocks, permit application forms, and Subchapter F exhibits to explicitly designate the use type as Two-Unit Residential and confirm that all §25-2-773 development standards are being applied."
+    },
+    {
+      "item": 3,
+      "finding_id": "B-02",
+      "category": "Architectural — GFA",
+      "action": "INCLUDE",
+      "reviewer_action": "CORRECT",
+      "confidence": "HIGH",
+      "verify_flag": false,
+      "title": "ADU (Unit 2) GFA calculation not submitted",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(E) — within Subchapter F compatibility area, each unit in a Two-Unit Residential development must individually not exceed the greater of 0.4 FAR or 2,300 sq ft. Austin LDC Subchapter F §3.3 — GFA calculation methodology applies to all structures on a Subchapter F-affected lot.",
+      "correction": "The Subchapter F GFA calculation form (pages 7–8) covers Unit 1 (the house) only. No GFA calculation is provided for Unit 2 (the ADU). Under Two-Unit Residential use, §25-2-773(E) sets a per-unit maximum GFA for each unit individually. Provide a Subchapter F GFA calculation for the ADU, following the methodology in Subchapter F §3.3 (including attic area calculations if applicable). Verify that the ADU's GFA does not exceed the greater of 0.4 × [verified lot area] or 2,300 sq ft."
+    },
+    {
+      "item": 4,
+      "finding_id": "B-03",
+      "category": "Architectural — GFA",
+      "action": "INCLUDE",
+      "reviewer_action": "CORRECT",
+      "confidence": "HIGH",
+      "verify_flag": false,
+      "title": "Combined site GFA (both units) not calculated or submitted",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(E) — within Subchapter F compatibility area, Two-Unit Residential: site maximum GFA is the greater of 0.55 FAR or 3,200 sq ft (combined gross floor area of both units).",
+      "correction": "No combined-site GFA exhibit has been submitted showing the sum of Unit 1 GFA + Unit 2 GFA compared to the §25-2-773(E) site maximum. Using the lower lot area (7,330 sq ft), the site maximum is the greater of (0.55 × 7,330 = 4,031 sq ft) or 3,200 sq ft = 4,031 sq ft. Provide a combined Subchapter F GFA summary table covering both units and confirm that the total does not exceed this limit. Note: resolve the lot area discrepancy (Item 1) first, as the correct lot area directly affects all FAR calculations."
+    },
+    {
+      "item": 5,
+      "finding_id": "B-07",
+      "category": "Architectural — Design",
+      "action": "INCLUDE",
+      "reviewer_action": "CORRECT",
+      "confidence": "MEDIUM",
+      "verify_flag": false,
+      "title": "ADU (Unit 2) lacks a street-facing entrance",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(C) — minimum 1 street-facing entrance required.",
+      "correction": "The ADU's north elevation (the elevation facing toward Euclid Avenue, the primary street for this lot) does not show an entry door (see sheet p.3b2). The ADU's primary entry appears to be on the east elevation, accessed by an exterior stair on the interior side yard — this does not constitute a street-facing entrance toward Euclid Avenue. §25-2-773(C) requires a minimum of 1 street-facing entrance. Provide a street-facing entry on the north elevation of the ADU, or demonstrate on revised drawings how the ADU satisfies the street-facing entrance requirement. [VERIFY: Confirm on full-size architectural drawings that no north-facing entry exists — if a compliant entry is present but not legible at reduced scale, provide detail."]
+    },
+    {
+      "item": 6,
+      "finding_id": "B-01",
+      "category": "Architectural — GFA",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "MEDIUM",
+      "verify_flag": true,
+      "title": "[VERIFY] House (Unit 1) per-unit GFA — within 10 sq ft of limit at lower lot area",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(E) — within Subchapter F compatibility area, Two-Unit Residential: per-unit maximum GFA is greater of 0.4 FAR or 2,300 sq ft.",
+      "correction": "[VERIFY] The Subchapter F GFA form shows Unit 1 (house) GFA at approximately 39.86% FAR. Using the lower lot area (7,330 sq ft): house GFA ≈ 2,922 sq ft vs. per-unit maximum ≈ 2,932 sq ft — a margin of approximately 10 sq ft. This margin is within reduced-sheet reading tolerance. Verify Unit 1 GFA on the full-size Subchapter F form and confirm that the house GFA does not exceed the greater of (0.4 × verified lot area) or 2,300 sq ft. Note: if the correct lot area is 7,730 sq ft, the per-unit maximum rises to 3,092 sq ft and this item becomes a clear PASS."
+    },
+    {
+      "item": 7,
+      "finding_id": "A-06",
+      "category": "Site",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "LOW",
+      "verify_flag": true,
+      "title": "[VERIFY] Front yard impervious cover percentage not calculated on plans",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(B) — maximum front yard impervious cover 40%.",
+      "correction": "[VERIFY] The site plan and impervious cover exhibit do not include a separate calculation of impervious cover within the front yard (the yard between the front building setback line and the Euclid Ave property line). Phase I limits front or street yard impervious cover to 40%. Provide the front yard area (sq ft), front yard impervious area (sq ft), and resulting percentage on the site plan or impervious cover exhibit."
+    },
+    {
+      "item": 8,
+      "finding_id": "A-07",
+      "category": "Site",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "MEDIUM",
+      "verify_flag": true,
+      "title": "[VERIFY] Front setback — house dimension not confirmed",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(B) — minimum front yard setback 15 ft for Two-Unit Residential.",
+      "correction": "[VERIFY] The front setback of the house from the Euclid Avenue (north) property line is not legibly dimensioned at the scale reviewed. Confirm on the full-size site plan (p.1a) that the front setback dimension is ≥ 15 ft, measured from the front lot line to the nearest exterior wall of the house."
+    },
+    {
+      "item": 9,
+      "finding_id": "A-08",
+      "category": "Site",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "MEDIUM",
+      "verify_flag": true,
+      "title": "[VERIFY] Rear setback — ADU dimension not confirmed",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(B) — minimum rear yard setback is base district minimum OR 5 ft if adjacent to an alley or a lot permitted for multifamily or less restrictive use.",
+      "correction": "[VERIFY] The alley along the south property line is shown on the site plan, which triggers the 5 ft minimum rear setback exception under §25-2-773(B). The exact setback dimension from the ADU's south wall to the south property line is not clearly legible at the scale reviewed. Confirm on the full-size site plan (p.1a) that the ADU rear setback is ≥ 5 ft from the south (alley-adjacent) property line."
+    },
+    {
+      "item": 10,
+      "finding_id": "A-09",
+      "category": "Site",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "MEDIUM",
+      "verify_flag": true,
+      "title": "[VERIFY] Side/street-side setback condition not confirmed",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(B) — corner lot: minimum street-side setback is greater of 5 ft from property line or 10 ft from curb (Level 1 street); or 10 ft from property line (Level 2–4 street). Austin LDC §25-2-492, SF-3 base district — minimum interior side setback 5 ft.",
+      "correction": "[VERIFY] The ADU ground floor plan (p.2b) notes '5' Street Side Setback' and '20' Front Street-Side Setback' at a lot boundary. Confirm whether this lot is a corner lot or interior lot. If corner lot: verify the street-side setback meets the applicable Phase I minimum for the street classification (Level 1: greater of 5 ft from PL or 10 ft from curb; Level 2–4: 10 ft from PL). If interior lot: confirm all side setbacks are ≥ 5 ft from the interior side lot lines. Clearly dimension all setbacks on the full-size site plan."
+    },
+    {
+      "item": 11,
+      "finding_id": "A-10",
+      "category": "Site",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "MEDIUM",
+      "verify_flag": true,
+      "title": "[VERIFY] Front porch setback from front lot line not confirmed",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(C) — porch projecting into the front yard must be ≥ 15 ft from the front lot line; porch roof or overhang must be ≥ 13 ft from the front lot line.",
+      "correction": "[VERIFY] The house north (street-facing) elevation shows a covered front porch projecting toward Euclid Avenue. The distance from the porch and its roof/overhang to the front (north) lot line is not dimensioned at scale reviewed. Confirm on the full-size site plan that: (1) the porch floor is ≥ 15 ft from the front lot line, and (2) the porch roof/overhang is ≥ 13 ft from the front lot line."
+    },
+    {
+      "item": 12,
+      "finding_id": "A-11",
+      "category": "Site",
+      "action": "INCLUDE",
+      "reviewer_action": "VERIFY",
+      "confidence": "MEDIUM",
+      "verify_flag": true,
+      "title": "[VERIFY] Parking spaces in front/street yard — count not confirmed",
+      "code_ref": "HOME Phase I, Ord. 20231207-001, §25-2-773(B) — maximum 4 parking spaces in front or street yard (combined for corner lots).",
+      "correction": "[VERIFY] The site plan shows a driveway and parking area configuration, but the number of parking spaces located within the front or street yard is not clearly confirmed at scale reviewed. Confirm on the full-size site plan that the total number of parking spaces within the front yard and/or street yard does not exceed 4 spaces combined."
+    },
+    {
+      "item": 13,
+      "finding_id": "C-04",
+      "category": "Structure",
+      "action": "INCLUDE",
+      "reviewer_action": "REVIEWER_BLANK",
+      "confidence": "LOW",
+      "verify_flag": false,
+      "title": "[REVIEWER: ___] Structural design adequacy",
+      "code_ref": "2021 IBC Chapter 16 (structural loads), Chapter 18 (soils and foundations), Chapter 23 (wood frame construction).",
+      "correction": "[REVIEWER: ___] Structural engineering documents (S200–S400, Greensmith Engineering) show reinforced concrete footings, LVL framing, floor trusses at 24\" o.c., CS-WSP shear walls, and seismic Category A / 115 mph wind bracing. Texas-licensed PE stamp is present on all structural sheets. Adequacy of foundation design for actual site soil conditions requires review by City structural plan checker. No correction generated by plan review AI — this item is for human structural reviewer determination."
+    }
+  ],
+  "dropped_findings": [
+    {
+      "finding_id": "A-03",
+      "reason": "HOME Phase I ordinance citation on cover sheet: no specific Austin code section mandates listing of local amendment ordinance numbers in a plan cover sheet code list. Insufficient code basis for a formal correction. Reviewer may note as a best-practice deficiency at their discretion."
+    }
+  ],
+  "pass_findings_noted": ["A-04", "A-05", "B-04", "B-05", "B-06", "B-08", "B-09", "B-10", "C-01", "C-02", "C-03"]
+}
