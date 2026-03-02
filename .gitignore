@@ -34,6 +34,8 @@ firebase-debug.log
 *.png
 # But allow frontend static images
 !frontend/public/**/*.png
+# But allow demo output images
+!demo-output/**/*.png
 
 # Visuals / video assets (generated with fal-ai, too large for git)
 visuals/
