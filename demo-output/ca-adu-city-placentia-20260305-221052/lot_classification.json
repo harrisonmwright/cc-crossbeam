@@ -1,0 +1,16 @@
+{
+  "lot_type": "SINGLE_FAMILY",
+  "lot_area_sqft": 6645,
+  "existing_dwelling_count": 1,
+  "existing_sfr_sqft": 1854,
+  "adu_type_proposed": "DETACHED",
+  "adu_sqft_proposed": 840,
+  "is_new_construction": true,
+  "bedrooms": 1,
+  "governing_statutes": ["Gov. Code § 66314"],
+  "setback_minimum_ft": 4,
+  "height_maximum_ft": 16,
+  "size_maximum_sqft": 850,
+  "classification_confidence": "MEDIUM",
+  "classification_notes": "Lot area 6,645 sq ft read from cover sheet lot coverage table — MEDIUM confidence (partially legible at image resolution). ADU sq ft ~840 read from scope of work on cover sheet — MEDIUM confidence, verify against dimensioned floor plan on A2. ADU type DETACHED confirmed: 'New Detached ADU' stated on cover sheet title and site plan; separate new structure at rear of lot. 1BR unit confirmed from A2 floor plan layout. State size max for 1BR detached ADU = 850 sq ft (Gov. Code § 66314(c)(2)(A)) — proposed 840 sq ft is within limit if confirmed. No transit proximity flag noted; standard 16 ft height max applies."
+}

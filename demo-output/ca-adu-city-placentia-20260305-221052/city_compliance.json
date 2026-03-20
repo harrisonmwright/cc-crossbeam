@@ -1,0 +1,104 @@
+{
+  "project": "1232 N. Jefferson St. — New Detached ADU, Placentia CA",
+  "review_date": "2026-03-05",
+  "city": "Placentia",
+  "city_reference_source": "adu-skill-development/skill/placentia-adu/references/",
+  "verifier": "3B — Placentia City Rules",
+  "city_amendments_applied": [
+    {
+      "topic": "Side Setbacks",
+      "local_rule": "PMC § 23.73.060(C) — 4 ft minimum side setbacks for detached ADUs in R-1 zones",
+      "state_default": "Gov. Code § 66314(c)(2)(C) — 4 ft minimum",
+      "state_compliant": true,
+      "note": "City and state are aligned at 4 ft. Enforcement basis: PMC § 23.73.060(C)."
+    },
+    {
+      "topic": "Building Separation",
+      "local_rule": "PMC § 23.73.060(D) — 10 ft minimum separation between new detached ADU and primary dwelling",
+      "state_default": "State law does not specify a minimum building separation for detached ADUs",
+      "state_compliant": true,
+      "note": "Objective standard — enforceable. Not shown on submitted plans."
+    },
+    {
+      "topic": "Architectural Compatibility",
+      "local_rule": "PMC § 23.73.080 — ADU exterior materials and roof pitch shall be compatible with the primary dwelling (objective standard)",
+      "state_default": "Gov. Code § 66314(b)(1) — only objective design standards permitted",
+      "state_compliant": true,
+      "note": "Standard is objective (materials match, roof pitch match) — enforceable. Plans do not include a compatibility statement or material comparison table."
+    },
+    {
+      "topic": "Lot Coverage",
+      "local_rule": "PMC Ch. 23.12 (R-1 Zone) — maximum 50% lot coverage",
+      "state_default": "Gov. Code § 66321(b)(3) — local lot coverage limits may apply",
+      "state_compliant": true,
+      "note": "Estimated coverage ~40.7% (6,645 sq ft lot; SFR 1,854 sq ft + ADU 850 sq ft). Appears to comply but calculation is not stated on plans."
+    },
+    {
+      "topic": "Title 24 Energy Standard Edition",
+      "local_rule": "Placentia adopts state energy code; 2022 California Energy Code (Title 24, Part 6) effective January 1, 2023",
+      "state_default": "2022 CEnC",
+      "state_compliant": true,
+      "note": "For 2026 submittals, the 2022 CEnC applies. Plans reference 2019 Title 24 — must be updated."
+    },
+    {
+      "topic": "Deed Restriction",
+      "local_rule": "PMC § 23.73.050 — deed restriction recorded with Orange County Recorder restricting ADU to residential use and notifying owners of owner-occupancy waiver (per AB 976) required before permit issuance",
+      "state_default": "State law limits deed restriction requirements — no owner-occupancy restriction permitted after Jan 1, 2025 (AB 976). Recordation of non-sale covenant is permissible.",
+      "state_compliant": true,
+      "note": "Deed restriction for non-rental-ban purposes is permissible. Plans do not reference this requirement — applicant must record before building permit is issued."
+    },
+    {
+      "topic": "Impact Fees",
+      "local_rule": "Placentia Development Impact Fees — proportional fee applies to ADUs >750 sq ft per AB 68 framework",
+      "state_default": "Gov. Code § 66333.1 — no impact fee for ADUs ≤750 sq ft; proportional fee for larger ADUs",
+      "state_compliant": true,
+      "note": "Proposed ADU is 850 sq ft — 100 sq ft above the fee exemption threshold. Proportional impact fee applies. Not a plan correction, but applicant should be informed."
+    },
+    {
+      "topic": "Water Utility",
+      "local_rule": "Placentia is served by Golden State Water Company (GSWC) — applicant must coordinate directly with GSWC for new water service lateral and meter; city does not process water utility connections",
+      "state_default": "State law permits connection to existing water/sewer systems",
+      "state_compliant": true,
+      "note": "Informational only — ADU may connect to existing service lateral per state law, but GSWC coordination required for any new meter or service upgrade."
+    }
+  ],
+  "new_city_findings": [
+    {
+      "check": "Building separation — ADU to primary dwelling (10 ft minimum)",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "code_ref": "PMC § 23.73.060(D) — 10 ft minimum separation between detached ADU and primary dwelling. No building separation dimension is labeled on new site plan (A1) between ADU and existing SFR.",
+      "action": "INCLUDE — dimension building separation between ADU and primary dwelling on site plan.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Architectural compatibility — materials and roof pitch match primary dwelling",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "code_ref": "PMC § 23.73.080 — exterior materials and roof pitch of ADU shall be compatible with primary dwelling (objective standard). No compatibility note or material comparison table present on architectural sheets.",
+      "action": "INCLUDE — add compatibility note on A3 or cover sheet confirming ADU exterior materials and roof pitch match primary dwelling. Provide material callout if not already shown.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Deed restriction — recorded before permit issuance",
+      "status": "INFORMATIONAL",
+      "confidence": "HIGH",
+      "code_ref": "PMC § 23.73.050 — deed restriction with Orange County Recorder required before building permit issuance. Restriction must note ADU is for residential use only and acknowledge AB 976 owner-occupancy waiver.",
+      "action": "INFORMATIONAL — not a plan correction. Applicant must record deed restriction with OC Recorder and provide copy to Planning Division before building permit is issued.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Impact fee notice — proportional fee applies (ADU >750 sq ft)",
+      "status": "INFORMATIONAL",
+      "confidence": "HIGH",
+      "code_ref": "Gov. Code § 66333.1 + Placentia Development Impact Fee Schedule — no impact fee for ADUs ≤750 sq ft; proportional fee applies for ADUs 751–1,000 sq ft. Proposed ADU is 850 sq ft.",
+      "action": "INFORMATIONAL — not a plan correction. Applicant should be advised proportional impact fee applies at permit issuance.",
+      "sheet_id": "CS",
+      "page_number": 1
+    }
+  ],
+  "state_preemption_flags": []
+}

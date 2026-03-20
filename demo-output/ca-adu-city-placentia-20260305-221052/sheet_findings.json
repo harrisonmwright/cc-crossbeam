@@ -1,0 +1,278 @@
+{
+  "project": "1232 N. Jefferson St. — New Detached ADU, Placentia CA",
+  "review_date": "2026-03-05",
+  "adu_type": "DETACHED",
+  "governing_statutes": ["Gov. Code § 66314"],
+  "findings": [
+    {
+      "check": "Designer/contractor stamps and signatures",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Ideal Designs firm logo and contact information present in upper-right title block. Signature block visible in Project Consultants section (block 8).",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Governing codes listed (CBC, CRC, CMC, CPC, CEC, CalGreen, Fire)",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Governing Codes block lists: 2022 CBC, 2022 CRC, 2022 Orange County Amendments, 2022 CMC, 2022 CPC, 2022 CEC, 2022 CalGreen, 2022 Fire Code. All major codes present.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Title 24 Energy Code edition — current adopted edition",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "observation": "Governing Codes block lists '2019 Title 24.' California adopted the 2022 Title 24 Energy Standards effective January 1, 2023. Plans should reference the 2022 edition unless the application was accepted prior to that effective date.",
+      "code_ref": "2022 Title 24, Part 6 (California Energy Code) — effective Jan 1, 2023; plan lists 2019 edition. Confirm application intake date or revise governing code block to reference 2022 Title 24.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Sheet index present and matches submitted set",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Sheet Index shown in Block 1 of CS. All 15 physical sheets confirmed against the index: CS, AIA.1, AIA.2, A1, A1.1, A2, A3, SN1, SN2, S1, S2, S3, T-1, T-2, T-3. Count and IDs match.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Project data table — address, zoning, ADU type, square footage",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Header and Block 4 show: 1232 N. Jefferson St., Unit A, Placentia CA 92870. Title reads 'NEW DETACHED ADU.' APN and zoning in Legal Description block. Floor area breakdown in Notes block.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Owner information present",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Block 3 labeled 'OWNER INFORMATION' contains owner name, address, and contact details.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "ADU floor area — within 850 sq ft state maximum (1BR detached)",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "ADU footprint labeled on site plan as 850 sq ft — at the state maximum. Floor plan on A2 dimensions are consistent. Confirmed 1BR layout.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Room labels present (bedroom, bathroom, kitchen/living)",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "A2 labels: (N) BEDROOM, (N) LIVING, kitchen with range/refrigerator/sink, bathroom with toilet/sink/shower. All habitable spaces labeled.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Separate exterior entrance shown",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Detached ADU has exterior entry door on unit perimeter, independent of primary dwelling. Covered landing referenced in Scope of Work on CS.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Egress window in sleeping room (CRC R310 — min 5.7 sq ft net clear, min 24\" ht, min 20\" width, max 44\" sill)",
+      "status": "PASS",
+      "confidence": "MEDIUM",
+      "observation": "Window schedule on A2 lists bedroom window as slider type with dimensions consistent with egress. A dedicated 'Bedroom Egress Standards' note block on A2 cites CRC R310 minimums. Exact schedule values not fully legible at image resolution — counter reviewer should confirm net clear opening ≥5.7 sq ft in schedule.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Minimum ceiling height (CRC R305 — 7 ft habitable rooms)",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Shower/Bath Notes section on A2 references 7-ft minimum for habitable rooms per CRC R305 and 6'-8\" minimum at shower head. Dedicated note block present.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Bathroom exhaust fan shown",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Exhaust fan symbol shown in bathroom on A2 floor plan per Electrical Symbols Legend. Shower/Bath Notes section references exhaust fan requirement.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Smoke/CO detector locations shown",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Combo smoke/CO detector symbol defined in Electrical Symbols Legend and placed on A2 floor plan. 'Smoke & Carbon Monoxide Alarms' note block describes placement per CRC R314/R315.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Exterior door width ≥32\" clear (CBC 1010.1.1)",
+      "status": "PASS",
+      "confidence": "MEDIUM",
+      "observation": "Door Schedule shows exterior door at 3'-0\" x 6'-8\" nominal (36\"), providing approximately 33.5\"–34\" clear width — meets 32\" minimum. Confidence MEDIUM: door stop deduction not explicitly noted in schedule.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Window schedule present",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Complete Window Schedule on A2 lists symbol, size, glazing, material, type, and remarks. Tempered glass noted for applicable locations.",
+      "sheet_id": "A2",
+      "page_number": 6
+    },
+    {
+      "check": "Rear setback of ADU from rear property line (state minimum 4 ft)",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "New Site Plan on A1 labels '4'-0\" ADU SETBACK' at rear property line. Equals state law minimum exactly.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Side setbacks of ADU from side property lines (state minimum 4 ft each)",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "observation": "New Site Plan does not explicitly dimension the ADU's clearance to either side property line. Existing SFR side dimensions are labeled but no ADU-specific side setback callouts are present.",
+      "code_ref": "Gov. Code § 66314(c)(2)(C) — side setback minimum 4 ft for detached ADU (new construction). ADU side setback dimensions not shown on new site plan; compliance cannot be confirmed.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Lot coverage percentage shown",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "observation": "No lot coverage percentage is stated on A1 or A1.1. SFR footprint (1,854 sq ft) + ADU (850 sq ft) = 2,704 sq ft against 6,645 sq ft lot = ~40.7% coverage — but this is not calculated or stated on the plans.",
+      "code_ref": "Placentia Municipal Code — local lot coverage limit applies; no coverage calculation shown on site plan. Reviewer cannot confirm compliance without stated figure.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Existing primary dwelling footprint labeled",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Both site plans label '(E) ONE-STORY SINGLE-FAMILY RESIDENCE (1,854 SQ.FT.)'. Confirmed on A1.1.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "ADU footprint shown and labeled with square footage",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "ADU footprint shown in rear yard on new site plan, labeled 'ADU (850 SQ.FT.)' per site plan legend.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Utility connections shown (water, sewer, electrical)",
+      "status": "PASS",
+      "confidence": "MEDIUM",
+      "observation": "Electrical panel and electric heat pump/water heater shown on new site plan. Sewer and water service lateral for ADU not explicitly dimensioned as separate runs. Site Plan Notes state no wastewater connection to storm drain.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Drainage direction indicated",
+      "status": "PASS",
+      "confidence": "MEDIUM",
+      "observation": "Site Plan Notes state 'LOTS SHALL BE GRADED TO DRAIN SURFACE WATER AWAY FROM FOUNDATION WALLS WITH A MINIMUM FALL OF 6 INCHES WITHIN THE FIRST 10 FEET (R401.3).' No drainage arrows shown graphically.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Existing parking maintained",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Both site plans show '(E) TWO-CAR GARAGE (346.0 SQ.FT.)' retained in same location. No existing parking removed to accommodate ADU.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "ADU building height — max 16 ft from natural grade (Gov. Code § 66314(c)(2)(B))",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "West and North Elevations label '12'-1\" NEW ADU' to top of ridge. All four elevations consistent — ridge well below 16 ft state maximum.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "All four elevations shown (N, S, E, W)",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "WEST, SOUTH, NORTH, and EAST elevations all present on A3, each at Scale 1/4\"=1'-0\".",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Fire-rated wall — 1-hour assembly on faces within 5 ft of property line (CBC § 705)",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "observation": "A 1-hour fire-rated wall assembly note is present on A3 referencing CBC Ch. 7 / Table 722 with 5/8\" Type X gypsum. However, the note is partially obscured by the watermark and no per-elevation keynote identifies which faces are within 5 ft of the property line. Side setbacks for ADU are unconfirmed (see A1 finding).",
+      "code_ref": "CBC § 705 — 1-hour rated exterior wall required on faces within 5 ft of property line; no openings within 3 ft, protected openings within 3–5 ft. Note is present but per-elevation application not delineated; side setbacks unconfirmed.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Windows on wall faces within 5 ft of property line — openings restricted (CBC § 705.8)",
+      "status": "UNCLEAR",
+      "confidence": "MEDIUM",
+      "observation": "Windows shown on all four elevations. No 'protected opening' or fire-rated glazing callout on any window. Side setbacks from property lines are unconfirmed (A1 gap), so which faces, if any, require protected or eliminated openings cannot be determined.",
+      "code_ref": "CBC § 705.8 — no unprotected openings within 3 ft of property line; protected openings required within 3–5 ft. No rated glazing callout observed. Cannot confirm without side setback dimensions.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Eave projection distance relative to property line (CBC § 705.2)",
+      "status": "UNCLEAR",
+      "confidence": "LOW",
+      "observation": "Eave extends beyond exterior wall plane (drip edge detail shown). Projection dimension relative to property line not dimensioned on A3. Cannot confirm whether eave comes within 2 ft of any property line without side setback data.",
+      "code_ref": "CBC § 705.2 — eave projecting within 2 ft of property line requires fire-resistive construction. Eave-to-property-line distance not calculable from available data.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Roofing material — Class A or B fire rated",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Roofing Material notes on A3 specify Class A asphalt shingles (UL-A rated). Satisfies fire rating requirements.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Building sections shown",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Section A and Section B both present on A3, cutting across full building width. Show bedroom, bath, kitchen, attic space.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Insulation values — roof R-30, walls R-15",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Section A and B both call out (N) R-30 INSULATION at ceiling/roof and (N) R-15 INSULATION at exterior walls. Slab-on-grade — floor insulation not required. Full Title 24 compliance on T-sheets.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Attic ventilation calculation shown",
+      "status": "PASS",
+      "confidence": "HIGH",
+      "observation": "Attic ventilation note block on A3 shows 1/150 ratio calculation: ridge vent 54.0 sq ft + eave vents 75.0 sq ft = 150.0 sq ft total required. Calculation present and complete.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Foundation-to-wall connection shown in section",
+      "status": "PASS",
+      "confidence": "MEDIUM",
+      "observation": "Sections A and B show wall base extending from slab/foundation level. Capillary Break Detail (Detail 1) shows anchor bolt, sill plate, and capillary break. Full structural connection detail deferred to S-sheets.",
+      "sheet_id": "A3",
+      "page_number": 7
+    }
+  ]
+}

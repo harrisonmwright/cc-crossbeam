@@ -1,0 +1,71 @@
+{
+  "project": "1232 N. Jefferson St. — New Detached ADU, Placentia CA",
+  "review_date": "2026-03-05",
+  "adu_type": "DETACHED",
+  "governing_statutes": ["Gov. Code § 66314"],
+  "verifier": "3A — State Law Verification",
+  "verified_findings": [
+    {
+      "check": "Title 24 Energy Code edition — current adopted edition",
+      "original_status": "UNCLEAR",
+      "verified_status": "FAIL",
+      "code_ref": "2022 California Energy Code (Title 24, Part 6), effective January 1, 2023 — plans list '2019 Title 24' in governing codes block. Any application accepted on or after January 1, 2023 must comply with the 2022 edition. For submittals in 2026, the 2022 CEnC applies. Plans must update governing codes block and confirm T-sheets were generated under the 2022 standard.",
+      "action": "INCLUDE — update cover sheet governing codes to '2022 California Energy Code (Title 24, Part 6)' and verify T-sheet compliance forms match 2022 standard.",
+      "exception_check": "No exception applies — ADU new construction submitted in 2026 is subject to 2022 CEnC. No grandfather provision for pre-2023 standards.",
+      "sheet_id": "CS",
+      "page_number": 1
+    },
+    {
+      "check": "Side setbacks of ADU from side property lines (state minimum 4 ft each)",
+      "original_status": "UNCLEAR",
+      "verified_status": "FAIL",
+      "code_ref": "Gov. Code § 66314(c)(2)(C) — detached ADU new construction: minimum 4-foot side and rear setbacks required. Side setback dimensions for the ADU are not shown on new site plan (A1). Compliance cannot be confirmed from submitted plans.",
+      "action": "INCLUDE — dimension ADU clearance to both side property lines on site plan.",
+      "exception_check": "No exception applies — § 66314(c)(2)(C) setback waiver applies only to conversions of existing accessory structures. This is new construction.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Lot coverage percentage shown",
+      "original_status": "UNCLEAR",
+      "verified_status": "INCLUDE_VERIFY",
+      "code_ref": "Gov. Code § 66321(b)(3) — cities may apply lot coverage limits to ADUs only to the extent permitted by state law; local limits must not preclude the ADU. Placentia Municipal Code sets maximum lot coverage for R-1 zones — the calculated coverage (~40.7%) must be stated and verified against the local limit. No lot coverage calculation is shown on the submitted plans.",
+      "action": "INCLUDE [VERIFY] — lot coverage calculation not shown on plans; reviewer to confirm local limit and whether 40.7% estimated coverage complies.",
+      "exception_check": "State law does not preempt all lot coverage limits — city's objective lot coverage standard may apply if it does not functionally preclude the ADU.",
+      "sheet_id": "A1",
+      "page_number": 4
+    },
+    {
+      "check": "Fire-rated wall — 1-hour assembly on faces within 5 ft of property line (CBC § 705)",
+      "original_status": "UNCLEAR",
+      "verified_status": "FAIL",
+      "code_ref": "CBC § 705.5 — exterior walls within 5 ft of property line require 1-hour fire-resistive construction. The 1-hour assembly note (5/8\" Type X gypsum, CBC Table 722) is present on A3, but no per-elevation callout identifies which wall faces are within 5 ft of any property line. Side setbacks are unconfirmed. Cannot determine compliance.",
+      "action": "INCLUDE — add per-elevation keynotes identifying which faces, if any, are within 5 ft of property line, and confirm 1-hour assembly applies to those faces.",
+      "exception_check": "Exception: if all ADU faces are ≥5 ft from all property lines (confirmed by dimensioned side setbacks), rated wall requirement does not apply. Setback confirmation prerequisite.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Windows on wall faces within 5 ft of property line — openings restricted (CBC § 705.8)",
+      "original_status": "UNCLEAR",
+      "verified_status": "FAIL",
+      "code_ref": "CBC § 705.8 — no unprotected openings permitted within 3 ft of property line; openings within 3–5 ft require fire-rated glazing (0.45-hour). No protected opening callout on any window on A3 elevations. Dependent on confirmed side setback dimensions.",
+      "action": "INCLUDE — once side setbacks are dimensioned, confirm any window within 5 ft of a property line has fire-rated glazing per CBC § 705.8 or is eliminated.",
+      "exception_check": "Same setback exception as § 705.5 — if all faces are ≥5 ft from property lines, this finding resolves.",
+      "sheet_id": "A3",
+      "page_number": 7
+    },
+    {
+      "check": "Eave projection distance relative to property line (CBC § 705.2)",
+      "original_status": "UNCLEAR",
+      "verified_status": "INCLUDE_VERIFY",
+      "code_ref": "CBC § 705.2 — eave projecting within 2 ft of property line requires fire-resistive construction on the underside. Eave projection extends beyond wall plane (visible on A3 elevations), but eave-to-property-line dimension is not calculable without confirmed side setback data. LOW visual confidence.",
+      "action": "INCLUDE [VERIFY] — reviewer to confirm eave-to-property-line clearance once side setbacks are dimensioned. If eave comes within 2 ft of any line, fire-rated soffit assembly required.",
+      "exception_check": "No exception — CBC § 705.2 applies to any eave projection that comes within 2 ft of property line.",
+      "sheet_id": "A3",
+      "page_number": 7
+    }
+  ],
+  "dropped_findings": [],
+  "state_preemption_flags": []
+}

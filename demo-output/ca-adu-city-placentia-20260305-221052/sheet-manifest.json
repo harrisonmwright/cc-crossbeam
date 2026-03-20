@@ -1,0 +1,30 @@
+{
+  "project": "1232 N. Jefferson St. — New Detached ADU",
+  "address": "1232 N. Jefferson St., Placentia, CA 92870",
+  "adu_address": "1232 N. Jefferson St., Unit A, Placentia, CA 92870",
+  "city": "Placentia",
+  "prepared_by": "ADU Metric / Ideal Designs",
+  "job_no": "25-1232N.JEFFSON",
+  "date": "06/18/2025",
+  "note": "Study Set — Not For Construction / Prepped for City Submittal",
+  "page_count": 15,
+  "sheet_count": 15,
+  "mapping": "1:1",
+  "sheets": [
+    { "page_number": 1,  "sheet_id": "CS",    "discipline": "Cover",      "description": "Cover Sheet — project data, governing codes, sheet index, vicinity map, general notes, scope of work" },
+    { "page_number": 2,  "sheet_id": "AIA.1", "discipline": "CalGreen",   "description": "2022 California Green Building Standards Code — Residential Mandatory Measures, Sheet 1" },
+    { "page_number": 3,  "sheet_id": "AIA.2", "discipline": "CalGreen",   "description": "2022 California Green Building Standards Code — Residential Mandatory Measures, Sheet 2" },
+    { "page_number": 4,  "sheet_id": "A1",    "discipline": "Site/Civil",  "description": "Existing & New Site Plans — setbacks, footprints, utilities, site legend, site notes" },
+    { "page_number": 5,  "sheet_id": "A1.1",  "discipline": "Site/Civil",  "description": "Existing SFR Roof Plan with Demolition — trellis demo, existing building footprint" },
+    { "page_number": 6,  "sheet_id": "A2",    "discipline": "Architectural","description": "ADU Floor Plan with Electrical — room layout, door/window schedules, bath/kitchen notes, egress, plumbing fixture notes" },
+    { "page_number": 7,  "sheet_id": "A3",    "discipline": "Architectural","description": "ADU Elevations (N/S/E/W), Roof Plan, Building Sections A & B, roofing material notes, attic ventilation calcs" },
+    { "page_number": 8,  "sheet_id": "SN1",   "discipline": "Structural",  "description": "Structural Notes 1 — statement of special inspection, concrete specs, general notes, foundations, reinforcement" },
+    { "page_number": 9,  "sheet_id": "SN2",   "discipline": "Structural",  "description": "Structural Notes 2 — nailing schedule, mechanical/adhesive anchors, structural wood specs" },
+    { "page_number": 10, "sheet_id": "S1",    "discipline": "Structural",  "description": "Partial Foundation Plan & Partial Floor Framing Plan" },
+    { "page_number": 11, "sheet_id": "S2",    "discipline": "Structural",  "description": "Structural Details — shearwall schedule, footing at holdown section" },
+    { "page_number": 12, "sheet_id": "S3",    "discipline": "Structural",  "description": "Structural Details — wall framing, roof framing, OTC clip max spacing" },
+    { "page_number": 13, "sheet_id": "T-1",   "discipline": "Energy",      "description": "Title 24 Energy Compliance — CF1R Residential Performance Compliance Reports, Page 1" },
+    { "page_number": 14, "sheet_id": "T-2",   "discipline": "Energy",      "description": "Title 24 Energy Compliance — CF1R Residential Performance Compliance Reports, Page 2" },
+    { "page_number": 15, "sheet_id": "T-3",   "discipline": "Energy",      "description": "2022 Single-Family Residential Mandatory Requirements Summary" }
+  ]
+}

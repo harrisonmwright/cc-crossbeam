@@ -1,0 +1,125 @@
+{
+  "project": "1232 N. Jefferson St. — New Detached ADU, Placentia CA",
+  "address": "1232 N. Jefferson St., Placentia, CA 92870",
+  "adu_address": "1232 N. Jefferson St., Unit A, Placentia, CA 92870",
+  "review_date": "2026-03-05",
+  "adu_type": "DETACHED",
+  "job_no": "25-1232N.JEFFSON",
+  "prepared_by": "Placentia Building & Safety Division (CrossBeam AI-assisted plan check)",
+  "total_corrections": 8,
+  "corrections": [
+    {
+      "item": 1,
+      "discipline": "Administrative",
+      "sheet": "CS",
+      "page": 1,
+      "title": "Update governing codes — Title 24 energy edition",
+      "code_ref": "2022 California Energy Code (Title 24, Part 6), effective January 1, 2023",
+      "required_action": "Revise the Governing Codes block on the cover sheet to reference the 2022 California Energy Code (Title 24, Part 6). Confirm that all Title 24 compliance forms (T-1, T-2, T-3) were generated using the 2022 standard. If forms were prepared under the 2019 standard, updated CF1R and mandatory requirements summary forms must be submitted.",
+      "confidence": "HIGH",
+      "reviewer_action": "INCLUDE",
+      "code_basis": "STATE"
+    },
+    {
+      "item": 2,
+      "discipline": "Site / Civil",
+      "sheet": "A1",
+      "page": 4,
+      "title": "Dimension ADU side setbacks on site plan",
+      "code_ref": "Gov. Code § 66314(c)(2)(C) / PMC § 23.73.060(C) — 4 ft minimum side setback for detached ADU (new construction)",
+      "required_action": "Add dimension callouts on the New Site Plan (A1) showing the clear distance from each side of the ADU to the corresponding side property line. Both side setbacks must be labeled and must each be ≥4 ft. Without these dimensions, side setback compliance cannot be confirmed.",
+      "confidence": "HIGH",
+      "reviewer_action": "INCLUDE",
+      "code_basis": "STATE + CITY"
+    },
+    {
+      "item": 3,
+      "discipline": "Site / Civil",
+      "sheet": "A1",
+      "page": 4,
+      "title": "Add lot coverage calculation to site plan",
+      "code_ref": "PMC Ch. 23.12 (R-1 Zone) — maximum 50% lot coverage; coverage calculation required on submitted plans",
+      "required_action": "Add a lot coverage table or note to the site plan (A1) stating: (1) total lot area, (2) existing SFR footprint, (3) proposed ADU footprint, (4) other impervious cover (garage, hardscape), and (5) resulting total lot coverage percentage. Calculated coverage must not exceed 50% for R-1 zoning.",
+      "confidence": "MEDIUM",
+      "reviewer_action": "INCLUDE [VERIFY] — reviewer to confirm lot area and all impervious coverage against the submitted calculation.",
+      "code_basis": "CITY"
+    },
+    {
+      "item": 4,
+      "discipline": "Site / Civil",
+      "sheet": "A1",
+      "page": 4,
+      "title": "Dimension building separation — ADU to primary dwelling",
+      "code_ref": "PMC § 23.73.060(D) — 10 ft minimum separation between detached ADU and existing primary dwelling",
+      "required_action": "Add a dimension callout on the New Site Plan (A1) showing the clear distance between the nearest wall of the new ADU and the nearest wall of the existing SFR. This dimension must be ≥10 ft.",
+      "confidence": "MEDIUM",
+      "reviewer_action": "INCLUDE",
+      "code_basis": "CITY"
+    },
+    {
+      "item": 5,
+      "discipline": "Architectural",
+      "sheet": "A3",
+      "page": 7,
+      "title": "Add architectural compatibility statement",
+      "code_ref": "PMC § 23.73.080 — ADU exterior materials and roof pitch shall be compatible with primary dwelling (objective standard)",
+      "required_action": "Add a compatibility note or material comparison table to Sheet A3 (or cover sheet) confirming that the ADU's exterior finish materials and roof pitch match the primary dwelling. Reference the primary dwelling materials shown on Sheet A1.1. If materials differ, revise to match or provide written justification to Planning Division.",
+      "confidence": "MEDIUM",
+      "reviewer_action": "INCLUDE",
+      "code_basis": "CITY"
+    },
+    {
+      "item": 6,
+      "discipline": "Architectural / Fire",
+      "sheet": "A3",
+      "page": 7,
+      "title": "Identify fire-rated wall faces and per-elevation application",
+      "code_ref": "CBC § 705.5 — 1-hour fire-resistive exterior wall required on faces within 5 ft of property line",
+      "required_action": "Once side setback dimensions are confirmed (see Item 2), add per-elevation keynotes on Sheet A3 identifying which wall faces, if any, are within 5 ft of a property line. Confirm the 1-hour assembly (5/8\" Type X gypsum per CBC Table 722, already noted on A3) is applied to those faces. If no face is within 5 ft, add a note stating same.",
+      "confidence": "MEDIUM",
+      "reviewer_action": "INCLUDE — resolves upon confirmation of side setback dimensions (Item 2).",
+      "code_basis": "STATE"
+    },
+    {
+      "item": 7,
+      "discipline": "Architectural / Fire",
+      "sheet": "A3",
+      "page": 7,
+      "title": "Confirm window glazing on faces within 5 ft of property line",
+      "code_ref": "CBC § 705.8 — no unprotected openings within 3 ft of property line; fire-rated glazing (0.45-hr) required for openings 3–5 ft from property line",
+      "required_action": "Once side setback dimensions are confirmed (see Item 2), review all windows on faces within 5 ft of any property line. Add fire-rated glazing callout for any affected windows, or confirm no window is within 5 ft and note accordingly on A3.",
+      "confidence": "MEDIUM",
+      "reviewer_action": "INCLUDE — resolves upon confirmation of side setback dimensions (Item 2).",
+      "code_basis": "STATE"
+    },
+    {
+      "item": 8,
+      "discipline": "Architectural / Fire",
+      "sheet": "A3",
+      "page": 7,
+      "title": "Confirm eave clearance from property line",
+      "code_ref": "CBC § 705.2 — eave projecting within 2 ft of property line requires fire-resistive construction on the underside",
+      "required_action": "Once side setback dimensions are confirmed (see Item 2), confirm that the eave projection does not come within 2 ft of any property line. If any eave is within 2 ft of a property line, add fire-rated soffit assembly callout on A3. If eave clearance ≥2 ft on all sides, add a note stating same.",
+      "confidence": "LOW",
+      "reviewer_action": "INCLUDE [VERIFY] — low visual confidence on eave projection dimension. Reviewer to confirm eave-to-property-line clearance on site.",
+      "code_basis": "STATE"
+    }
+  ],
+  "informational_items": [
+    {
+      "topic": "Deed restriction required before permit issuance",
+      "code_ref": "PMC § 23.73.050",
+      "note": "Applicant must record a deed restriction with the Orange County Recorder restricting the ADU to residential use and acknowledging the AB 976 owner-occupancy waiver. A copy must be provided to the Placentia Planning Division before the building permit is issued. This is not a plan correction."
+    },
+    {
+      "topic": "Development impact fee — proportional (ADU >750 sq ft)",
+      "code_ref": "Gov. Code § 66333.1 + Placentia Impact Fee Schedule",
+      "note": "Proposed ADU is 850 sq ft, which is above the 750 sq ft impact fee exemption threshold. A proportional development impact fee will be assessed at permit issuance. Applicant should contact the City's Finance Department for the current fee schedule."
+    },
+    {
+      "topic": "Water service — Golden State Water Company coordination required",
+      "code_ref": "GSWC Service Area — Placentia",
+      "note": "Placentia's water service is provided by Golden State Water Company (GSWC), a private utility. Any new water service lateral or meter upgrade must be coordinated directly with GSWC. The city does not process water utility connections on GSWC's behalf."
+    }
+  ]
+}

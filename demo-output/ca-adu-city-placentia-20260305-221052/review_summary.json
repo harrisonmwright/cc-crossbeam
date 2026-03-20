@@ -1,0 +1,52 @@
+{
+  "project": "1232 N. Jefferson St. — New Detached ADU, Placentia CA",
+  "review_date": "2026-03-05",
+  "adu_type": "DETACHED",
+  "phase_2_findings": {
+    "total": 33,
+    "pass": 27,
+    "fail": 0,
+    "unclear": 6,
+    "not_applicable": 0
+  },
+  "phase_3_verification": {
+    "unclear_confirmed": 6,
+    "unclear_dropped": 0,
+    "new_city_findings": 4
+  },
+  "corrections_letter": {
+    "total_required_corrections": 8,
+    "informational_items": 3,
+    "by_code_basis": {
+      "state_law_only": 4,
+      "city_code_only": 2,
+      "state_and_city": 2
+    },
+    "by_discipline": {
+      "administrative": 1,
+      "site_civil": 2,
+      "architectural": 1,
+      "architectural_fire": 3,
+      "site_civil_architectural": 0
+    },
+    "by_confidence": {
+      "high": 2,
+      "medium": 5,
+      "low": 1
+    },
+    "verify_flags": 3,
+    "reviewer_blanks": 0
+  },
+  "plans_overall_quality": "GOOD — plan set is well-organized with 27 of 33 checks passing on first review. The 8 required corrections are concentrated in two areas: (1) missing site plan dimensions (side setbacks, building separation, lot coverage) and (2) fire/life safety items that are contingent on confirming those setbacks. Resolving Items 1–2 on the site plan will likely resolve Items 6–8 automatically.",
+  "key_dependency": "Items 6, 7, and 8 (fire-rated wall faces, window glazing, eave clearance) are all contingent on Item 2 (side setback dimensions). If both side setbacks are confirmed ≥5 ft from property lines, Items 6, 7, and 8 may be resolved with a single note on the plans.",
+  "output_files": [
+    "sheet-manifest.json",
+    "lot_classification.json",
+    "sheet_findings.json",
+    "state_compliance.json",
+    "city_compliance.json",
+    "draft_corrections.json",
+    "draft_corrections.md",
+    "review_summary.json"
+  ]
+}
