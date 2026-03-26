@@ -1,18 +1,17 @@
 # Texas State Law — SFR Zoning and Land Use
 
-Applicable Texas statutes from the 89th Legislature (2025) that affect single-family and small-lot residential development in Austin, TX.
+Applicable Texas statutes from the 89th Legislature (2025) that affect single-family and small-lot residential development in Texas municipalities.
 
-**Applicability of all statutes below:** Austin qualifies under the population threshold (population >150,000 in a county with population >300,000).
+**Applicability of SB 15:** Municipalities with population >150,000 in a county with population >300,000. Austin qualifies. Verify for smaller cities before applying SB 15 preemption rules.
 
 ---
 
 ## Preemption Principle
 
-Texas state law sets a **floor** — it tells municipalities the most restrictive they can be. Austin's HOME Initiative ordinances are often **more permissive** than the state floor. When both apply:
+Texas state law sets a **floor** — it tells municipalities the most restrictive they can be. When both state and city rules apply:
 
-- If Austin HOME allows something the state floor also allows: apply Austin HOME rules
-- If Austin HOME allows something more permissive than the state floor: Austin HOME governs
-- If a city LDC provision is **more restrictive** than the state floor: the state law **preempts** — do not cite the more restrictive local provision as a valid requirement
+- If a city rule is **more permissive** than the state floor: city rule governs
+- If a city rule is **more restrictive** than the state floor: state law **preempts** — do not cite the more restrictive local provision as a valid requirement
 - **Do not issue a correction based on a local rule that state law has preempted**
 
 ---
@@ -58,7 +57,7 @@ Texas state law sets a **floor** — it tells municipalities the most restrictiv
 - Setbacks related to environmental features, erosion, or waterways (to extent authorized by federal/other state law)
 - Aquifer protection measures in aquifer recharge zones (notwithstanding the 30% open space limit)
 
-### Interaction with Austin HOME
+### Interaction with Austin HOME (Example City)
 
 | Topic | Austin HOME Rule | SB 15 State Floor | Which Governs |
 |-------|-----------------|-------------------|---------------|
@@ -168,9 +167,9 @@ HB 24 primarily governs **how cities must process zoning changes** — it is **n
 
 | Topic | City Authority Status | Governing Rule |
 |-------|----------------------|----------------|
-| Minimum lot size (new plats, qualifying cities) | **Preempted** if >3,000 sq ft minimum | SB 15 §211.054; but Austin HOME Phase II allows down to 1,800 sq ft — Austin HOME governs |
-| Minimum lot width (new plats) | **Preempted** if >30 ft minimum | SB 15; Austin HOME allows 15 ft — Austin HOME governs |
-| Small lot setbacks (≤4,000 sq ft) | **Preempted** if front >15 ft, rear >10 ft, side >5 ft | SB 15; Austin HOME Phase II is more permissive in most cases |
+| Minimum lot size (new plats, qualifying cities) | **Preempted** if >3,000 sq ft minimum | SB 15 §211.054 |
+| Minimum lot width (new plats) | **Preempted** if >30 ft minimum | SB 15 |
+| Small lot setbacks (≤4,000 sq ft) | **Preempted** if front >15 ft, rear >10 ft, side >5 ft | SB 15 |
 | Covered parking requirement (small lots) | **Preempted** — cannot require | SB 15 §211.055(a)(2) |
 | Parking >1 per unit (small lots) | **Preempted** | SB 15 §211.055(a)(3) |
 | By-right mixed-use/multifamily in commercial zones | **Preempted** — must allow by right | SB 840 §218.101 |
@@ -183,12 +182,14 @@ HB 24 primarily governs **how cities must process zoning changes** — it is **n
 
 ## Notes for Plan Checkers
 
-1. **SB 15 effective date is September 1, 2025.** For permits submitted before that date, SB 15 does not apply — use only Austin LDC and HOME rules.
+1. **SB 15 effective date is September 1, 2025.** For permits submitted before that date, SB 15 does not apply — use only the city LDC and any local residential rules.
 
 2. **Do not issue a correction based on a local rule that state law preempts.** If a plan complies with the state floor but not the (more restrictive) local rule, note the state preemption and mark PASS.
 
-3. **Austin HOME is generally more permissive than SB 15.** In most cases the Austin HOME rules govern because they allow smaller lots, narrower lots, and reduced setbacks beyond what SB 15 requires. SB 15 primarily protects the developer from a city trying to reimpose the old more-restrictive rules.
+3. **City rules more permissive than state floor govern.** State law is a floor, not a ceiling. A city that allows smaller lots or reduced setbacks than state minimums is not preempted — that is allowed.
 
 4. **SB 840 is not typically relevant for a standard SFR permit.** Flag it only if the plan involves a mixed-use or multifamily project, or a conversion from commercial use.
 
 5. **HB 24 is a legislative procedure law, not a development standard.** It does not create any compliance items in a plan check.
+
+6. **Qualifying municipality check for SB 15.** Before applying SB 15 preemption in a city you haven't reviewed before, confirm the city's population qualifies (>150,000 in a county >300,000).

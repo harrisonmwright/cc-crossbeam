@@ -175,7 +175,7 @@ Wait for the reviewer's response before continuing to Phase 3.
 After the reviewer confirms, launch two parallel subagents:
 
 **3A — HOME Phase I/II Verification:**
-- Load `references/home-phase-1.md` and `references/home-phase-2.md`
+- Load `adu-skill-development/skill/austin-sfr/references/home-phase-1.md` and `adu-skill-development/skill/austin-sfr/references/home-phase-2.md`
 - Load `lot_classification.json` to confirm the governing phase
 - For each FAIL and UNCLEAR finding, verify the `code_ref` citation is accurate against the governing phase's standards
 - Cross-check: unit count limits, setback minimums, height allowances, lot coverage maximums, impervious cover limits, parking rules, minimum lot size
@@ -183,7 +183,7 @@ After the reviewer confirms, launch two parallel subagents:
 - Write `home_compliance.json`
 
 **3B — Texas State Law Verification:**
-- Load `references/texas-state-law.md`
+- Load `adu-skill-development/skill/texas-sfr/references/texas-state-law.md`
 - Identify any findings that touch state-preempted topics (parking minimums, unit count, rental restrictions, HOA override provisions)
 - Flag any city LDC provisions that may be preempted by state law
 - Write `state_compliance.json`
@@ -220,13 +220,14 @@ After all phases complete, present to the reviewer:
 - **Reviewer blanks > AI guesses.** Use `[REVIEWER: ___]` for structural/engineering adequacy items.
 - **Objective standards only.** Only cite measurable, quantitative standards. Never flag subjective design or aesthetic issues.
 - **HOME preemption awareness.** If the HOME amendments now allow something that the base LDC would have failed, mark PASS and note the HOME authorization — do not generate a correction.
-- **State preemption awareness.** If a local LDC provision conflicts with a Texas state statute, flag the conflict — state law prevails. Load `references/texas-state-law.md` to verify.
+- **State preemption awareness.** If a local LDC provision conflicts with a Texas state statute, flag the conflict — state law prevails. Load `adu-skill-development/skill/texas-sfr/references/texas-state-law.md` to verify.
 - **Two confidence dimensions.** Report both code confidence (is this legally required?) and visual confidence (am I reading the sheet correctly?).
 
 ## Reference Files
 
 | File | Contents |
 |------|----------|
-| `references/home-phase-1.md` | Austin HOME Initiative Phase I — allowable uses, unit counts, setbacks, height, lot coverage, parking |
-| `references/home-phase-2.md` | Austin HOME Initiative Phase II — additional amendments, effective dates, dimensional standards |
-| `references/texas-state-law.md` | Applicable Texas state statutes affecting SFR zoning, parking, unit count, and preemption |
+| `adu-skill-development/skill/austin-sfr/references/home-phase-1.md` | Austin HOME Initiative Phase I — allowable uses, unit counts, setbacks, height, lot coverage, parking |
+| `adu-skill-development/skill/austin-sfr/references/home-phase-2.md` | Austin HOME Initiative Phase II — additional amendments, effective dates, dimensional standards |
+| `adu-skill-development/skill/texas-sfr/references/texas-state-law.md` | Applicable Texas state statutes affecting SFR zoning, parking, unit count, and preemption |
+| `adu-skill-development/skill/texas-sfr/references/preemption-guide.md` | Quick-reference preemption lookup table for SB 15, SB 840, and building code floors |

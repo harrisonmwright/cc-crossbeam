@@ -211,7 +211,7 @@ Wait for confirmation before Phase 3.
 
 After the user confirms, load the program reference file:
 ```
-.claude/skills/demo-db-developer/references/<program-slug>.md
+adu-skill-development/skill/austin-density-bonus/references/<program-slug>.md
 ```
 
 For each FAIL and UNCLEAR finding:
@@ -224,7 +224,7 @@ Write `program_compliance.json`:
 ```json
 {
   "program": "DB90",
-  "program_reference_file": ".claude/skills/demo-db-developer/references/db90.md",
+  "program_reference_file": "adu-skill-development/skill/austin-density-bonus/references/db90.md",
   "verified_findings": [...],
   "dropped_findings": [...],
   "drop_reason": "..."
@@ -354,7 +354,7 @@ After all phases complete, present to the user:
 ## Reference Files
 
 All program reference files are at:
-`.claude/skills/demo-db-developer/references/<program-slug>.md`
+`adu-skill-development/skill/austin-density-bonus/references/<program-slug>.md`
 
 | Program | Slug |
 |---------|------|
